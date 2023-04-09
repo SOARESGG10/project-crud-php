@@ -124,3 +124,9 @@ CREATE TABLE Contato (
     phone VARCHAR(15)
 )
 ```
+
+## 🔰 | Colaboradores:
+
+-   Beatriz Natali
+-   Matheus Rodrigues
+-   Rafael Henrique
