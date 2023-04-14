@@ -125,6 +125,15 @@ CREATE TABLE Contato (
 )
 ```
 
+- Na classe **ConnectionPDO** é necessário preenche as variáveis **$username** e **$password** com os seus respectivos dados para acesso ao banco de dados MySQL.
+
+```php
+$host = "localhost";
+$database = "Agenda";
+$username = ""; # Username
+$password = ""; # Password
+```
+
 ## 🔰 | Colaboradores:
 
 - Beatriz Natali
