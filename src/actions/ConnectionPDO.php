@@ -1,6 +1,6 @@
 <?php
 
-class PDO_Connection 
+class ConnectionPDO
 {
 
     private static $instance;

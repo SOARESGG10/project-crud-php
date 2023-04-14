@@ -1,6 +1,6 @@
 <h1 align="center">💡| Linguagem Técnica de Programação</h1>
 
--   ## 🐘 | PHP e MySQL :: CRUD – Create, Read, Update, Delete
+- ## 🐘 | PHP e MySQL :: CRUD – Create, Read, Update, Delete
 
 ### **Respostas:**
 
@@ -110,7 +110,7 @@ spl_autoload_register(
 
 ## Observação:
 
--   É necessário criar o banco de dados e tabela para o realizamento do CRUD.
+- É necessário criar o banco de dados e tabela para o realizamento do CRUD.
 
 ```sql
 CREATE DATABASE Agenda;
@@ -118,7 +118,7 @@ CREATE DATABASE Agenda;
 USE Agenda;
 
 CREATE TABLE Contato (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(45) NOT NULL,
     email VARCHAR(45) NOT NULL,
     phone VARCHAR(15)
@@ -127,6 +127,6 @@ CREATE TABLE Contato (
 
 ## 🔰 | Colaboradores:
 
--   Beatriz Natali
--   Matheus Rodrigues
--   Rafael Henrique
+- Beatriz Natali
+- Matheus Rodrigues
+- Rafael Henrique
