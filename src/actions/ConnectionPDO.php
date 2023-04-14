@@ -19,8 +19,8 @@ class ConnectionPDO
         if (!isset(self::$instance)) {
             $host = "localhost";
             $database = "Agenda";
-            $username = "soares";
-            $password = "acessomysql";
+            $username = ""; # Username
+            $password = ""; # Password
 
             try {
                 self::$instance = new PDO("mysql:host=$host;dbname=$database", $username, $password);
